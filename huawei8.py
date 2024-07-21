@@ -2,7 +2,7 @@ import requests
 import time
 
 def visit_url():
-    url = "https://杨文才.us.kg/api.php/timming/index.html?enforce=1&name=liangzi"
+    url = "http://xn--mpus5ehyb.us.kg/api.php/timming/index.html?enforce=1&name=hw8"
     try:
         response = requests.get(url)
         response.raise_for_status()
