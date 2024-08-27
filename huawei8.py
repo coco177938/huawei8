@@ -6,7 +6,7 @@ def visit_url():
     try:
         response = requests.get(url)
         response.raise_for_status()
-        time.sleep(10)  # 停留10秒钟
+        time.sleep(15)  # 停留15秒钟
         return f"Visited URL successfully, Status Code: {response.status_code}"
     except requests.RequestException as e:
         return f"Failed to visit URL: {str(e)}"
