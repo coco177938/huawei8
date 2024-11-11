@@ -2,7 +2,7 @@ name: Visit URL and Notify Telegram every 30 minutes
 
 on:
   schedule:
-    - cron: "18 */3 * * *"
+    - cron: "18 */8 * * *"
   workflow_dispatch:
 
 jobs:
